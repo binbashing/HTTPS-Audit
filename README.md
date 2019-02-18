@@ -30,6 +30,6 @@ python3 https-audit.py -s www.foo.com
 
 #### Example Output
 
- IP | Web Server | Web Server Version | CN | Issued | Expires | Issuer 
+ IP | Web Server | Web Server Version | CN | Issued | Expires | Issuer
 ---- | ------------ | -------------------- | ---- | --------- | ----------- | -------- | --------
 192.30.253.113 | | | github.com | 2018-05-08 00:00:00 | 2020-06-03 12:00:00 | DigiCert SHA2 Extended Validation Server CA
