@@ -6,7 +6,7 @@ import datetime
 import argparse
 from OpenSSL import SSL
 import unicodecsv as csv
-from pprint import pprint
+
 
 # Parse arguements
 parser = argparse.ArgumentParser()
@@ -32,7 +32,7 @@ def all_to_csv(input_list, out_file):
         dict_writer.writerows(input_list)
 
 
-# Helper function to get sertificate info
+# Helper function to get certificate info
 def get_cert_details(host, port):
     cert_dict = {}
     context = SSL.Context(SSL.SSLv23_METHOD)
@@ -75,3 +75,5 @@ def main():
 
 
 main()
+from pprint import pprint
+10
