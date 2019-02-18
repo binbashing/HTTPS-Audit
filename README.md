@@ -32,4 +32,4 @@ python3 https-audit.py -s www.foo.com
 | IP | Web Server | Web Server Version | CN | Issued | Expires | Issuer |
 |---|---|---|---|---|---|---|
 | 192.168.1.10  | nginx | 1.4.6 | *.foo.com  | 2018-01-01 00:00:00  | 2020-01-01 00:00:00   | GeoTrust SSL CA - G3  |
-| 192.168.1.10  | Apache httpd | 1.1.34 | *.bar.com  | 2017-12-31 00:00:00  | 2019-12-31 00:00:00   | Go Daddy Secure Certificate Authority - G2  |
+| 192.168.1.10  | Apache httpd | 2.2.34 | *.bar.com  | 2017-12-31 00:00:00  | 2019-12-31 00:00:00   | Go Daddy Secure Certificate Authority - G2  |
