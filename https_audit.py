@@ -75,5 +75,3 @@ def main():
 
 
 main()
-from pprint import pprint
-10
