@@ -3,7 +3,7 @@
 A simple python script to audit a subnet or host for HTTPS details.
 
 ## Install Dependencies
-```pip3 install requirements.txt```
+```pip3 -r install requirements.txt```
 
 ## Usage
 ```
