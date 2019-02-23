@@ -2,10 +2,8 @@
 
 A simple python script to audit a subnet or host for HTTPS details.
 
-## Dependencies
-* OpenSSL
-* NMAP
-* unicodecsv
+## Install Dependencies
+```pip3 install requirements.txt```
 
 ## Usage
 ```
