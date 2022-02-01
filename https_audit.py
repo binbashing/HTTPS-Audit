@@ -19,8 +19,7 @@ port = (args.port)
 if args.outfile:
     output_file = (args.outfile)
 else:
-    file_name = ['https-audit-', subnet.replace('.', '-').replace('/', '_'), '.csv']
-    output_file = ''.join(file_name)
+    output_file = f"https-audit-{subnet.replace('.', '-').replace('/', '_')}.csv"
 
 
 # Function to write data to CSV
